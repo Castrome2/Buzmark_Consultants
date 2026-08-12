@@ -1,0 +1,5 @@
+UPDATE public.companies SET name = replace(name, 'Serrari', 'Casto'), slug = replace(slug, 'serrari', 'casto'), description = replace(coalesce(description,''), 'Serrari', 'Casto'), website = replace(coalesce(website,''), 'serrari', 'casto') WHERE name ILIKE '%serrari%' OR slug ILIKE '%serrari%' OR coalesce(description,'') ILIKE '%serrari%';
+
+UPDATE public.portfolio_projects SET title = replace(title, 'Serrari', 'Casto'), slug = replace(slug, 'serrari', 'casto'), client = replace(coalesce(client,''), 'Serrari', 'Casto'), problem = replace(coalesce(problem,''), 'Serrari', 'Casto'), solution = replace(coalesce(solution,''), 'Serrari', 'Casto'), results = replace(coalesce(results,''), 'Serrari', 'Casto') WHERE title ILIKE '%serrari%' OR slug ILIKE '%serrari%' OR coalesce(client,'') ILIKE '%serrari%';
+
+UPDATE public.testimonials SET company = replace(coalesce(company,''), 'Serrari', 'Casto'), quote = replace(quote, 'Serrari', 'Casto') WHERE coalesce(company,'') ILIKE '%serrari%' OR quote ILIKE '%serrari%';
