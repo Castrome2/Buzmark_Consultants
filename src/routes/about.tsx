@@ -76,7 +76,7 @@ function About() {
           <Card className="sm:col-span-2 p-6">
             <h3 className="font-display text-lg font-bold text-navy">Promise</h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Building brands. Growing businesses. Creating impact — with transparent reporting on
+              Building brands. Growing businesses. Creating impact with transparent reporting on
               every shilling invested.
             </p>
           </Card>

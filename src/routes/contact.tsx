@@ -35,8 +35,8 @@ const schema = z.object({
 });
 
 const DETAILS = [
-  { icon: MapPin, label: "Office", value: "Westlands, Nairobi, Kenya" },
-  { icon: Phone, label: "Phone", value: "+254 700 000 000" },
+  { icon: MapPin, label: "Office", value: "Ruiru, Nairobi, Kenya" },
+  { icon: Phone, label: "Phone", value: "+254 705 242 144" },
   { icon: Mail, label: "Email", value: "hello@buzmark.com" },
   { icon: Clock, label: "Hours", value: "Mon – Fri, 8:30am – 5:30pm" },
 ];

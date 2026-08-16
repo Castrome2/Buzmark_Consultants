@@ -62,10 +62,10 @@ export function SiteFooter() {
           <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-brand">Contact</h3>
           <ul className="mt-4 space-y-3 text-sm text-navy-foreground/75">
             <li className="flex items-start gap-2.5">
-              <MapPin className="mt-0.5 size-4 shrink-0 text-brand" /> Westlands, Nairobi, Kenya
+              <MapPin className="mt-0.5 size-4 shrink-0 text-brand" /> Ruiru, Nairobi, Kenya
             </li>
             <li className="flex items-start gap-2.5">
-              <Phone className="mt-0.5 size-4 shrink-0 text-brand" /> +254 700 000 000
+              <Phone className="mt-0.5 size-4 shrink-0 text-brand" /> +254 705 242 144
             </li>
             <li className="flex items-start gap-2.5">
               <Mail className="mt-0.5 size-4 shrink-0 text-brand" /> hello@buzmark.com
