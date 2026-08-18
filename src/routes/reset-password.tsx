@@ -12,13 +12,13 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/reset-password")({
   head: () => ({
     meta: [
-      { title: "Reset your password | Buzmark Agency" },
+      { title: "Reset your password | Buzmark Consultants" },
       {
         name: "description",
-        content: "Choose a new password for your Buzmark client portal account.",
+        content: "Choose a new password for your Buzmark Consultants client portal account.",
       },
       { property: "og:title", content: "Reset your Buzmark password" },
-      { property: "og:description", content: "Set a new password for your Buzmark account." },
+      { property: "og:description", content: "Set a new password for your Buzmark Consultants client portal account." },
     ],
   }),
   component: ResetPassword,

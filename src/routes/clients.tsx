@@ -17,7 +17,7 @@ const clientsQuery = queryOptions({
 export const Route = createFileRoute("/clients")({
   head: () => ({
     meta: [
-      { title: "Clients & Managed Companies | Buzmark Agency" },
+      { title: "Clients & Managed Companies | Buzmark Consultants" },
       {
         name: "description",
         content:

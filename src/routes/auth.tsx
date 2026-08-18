@@ -17,7 +17,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in | Buzmark Agency Client Portal" },
+      { title: "Sign in | Buzmark Consultants Client Portal" },
       {
         name: "description",
         content:
@@ -131,7 +131,7 @@ function AuthPage() {
       .select("role")
       .eq("user_id", session.user.id);
     const isAdmin = (roles ?? []).some((r) => r.role === "admin");
-    toast.success(isAdmin ? "Welcome back, administrator" : "Welcome back to Buzmark Agency");
+    toast.success(isAdmin ? "Welcome back, administrator" : "Welcome back to Buzmark Portal");
     navigate({ to: isAdmin ? "/admin" : "/dashboard" });
   }
 
@@ -173,7 +173,7 @@ function AuthPage() {
         return;
       }
     }
-    toast.success("Account created. Welcome to Buzmark Agency!");
+    toast.success("Account created. Welcome to Buzmark Portal!");
     navigate({ to: "/dashboard" });
   }
 

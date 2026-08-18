@@ -70,7 +70,7 @@ BEGIN
     NEW.id, NEW.user_id, 'proposal',
     'BM-PRO-' || to_char(now(), 'YYYY') || '-' || lpad(nextval('public.doc_number_seq')::text, 4, '0'),
     'Proposal for ' || NEW.title,
-    'Buzmark Agency proposes to deliver ' || NEW.title || ' under our ' || NEW.category || ' practice, following the agreed pipeline: request, booking, payment, service delivery and completion.',
+    'Buzmark Consultants proposes to deliver ' || NEW.title || ' under our ' || NEW.category || ' practice, following the agreed pipeline: request, booking, payment, service delivery and completion.',
     v_items, COALESCE(NEW.amount, 0), COALESCE(NEW.amount_paid, 0),
     'Valid for 30 days. A deposit of 30% confirms the engagement; the balance is due before completion.'
   )

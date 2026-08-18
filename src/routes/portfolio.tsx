@@ -10,7 +10,7 @@ const projectsQuery = queryOptions({ queryKey: ["projects"], queryFn: () => list
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio & Case Studies | Buzmark Agency" },
+      { title: "Portfolio & Case Studies | Buzmark Consultants" },
       {
         name: "description",
         content:

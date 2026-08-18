@@ -14,16 +14,16 @@ export const Route = createFileRoute("/verify-email")({
   validateSearch: z.object({ email: z.string().optional() }),
   head: () => ({
     meta: [
-      { title: "Verify your email | Buzmark Agency" },
+      { title: "Verify your email | Buzmark Consultants" },
       {
         name: "description",
         content:
-          "Confirm your email address to activate your Buzmark Agency client account and open your dashboard.",
+          "Confirm your email address to activate your Buzmark Consultants client account and open your dashboard.",
       },
-      { property: "og:title", content: "Verify your email | Buzmark Agency" },
+      { property: "og:title", content: "Verify your email | Buzmark Consultants" },
       {
         property: "og:description",
-        content: "Confirm your email to activate your Buzmark Agency client account.",
+        content: "Confirm your email to activate your Buzmark Consultants client account.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -43,7 +43,7 @@ function VerifyEmailPage() {
     async function check() {
       const { data } = await supabase.auth.getUser();
       if (!stopped && data.user?.email_confirmed_at) {
-        toast.success("Email verified — welcome to Buzmark Agency!");
+        toast.success("Email verified — welcome to Buzmark Consultants!");
         navigate({ to: "/dashboard" });
       }
     }

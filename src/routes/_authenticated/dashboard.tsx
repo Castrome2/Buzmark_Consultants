@@ -298,7 +298,7 @@ function Dashboard() {
     user?.email?.split("@")[0] ||
     "there";
 
-  // First sign-in on this device gets the "Welcome to Buzmark Agency" greeting.
+  // First sign-in on this device gets the "Welcome to Buzmark Consultants" greeting.
   const [firstVisit, setFirstVisit] = useState(false);
   useEffect(() => {
     if (!user) return;
@@ -351,7 +351,7 @@ function Dashboard() {
             <h1 className="mt-4 text-3xl font-extrabold text-navy-foreground sm:text-4xl">
               {firstVisit ? (
                 <>
-                  Welcome to <span className="text-gradient-brand">Buzmark Agency</span>,{" "}
+                  Welcome to <span className="text-gradient-brand">Buzmark Consultants</span>,{" "}
                   {firstName} 👋
                 </>
               ) : (

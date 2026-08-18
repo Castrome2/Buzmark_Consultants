@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
         content:
           "Buzmark is a full-service marketing and consulting agency helping businesses build brands, grow revenue and create lasting impact.",
       },
-      { property: "og:title", content: "About Buzmark Agency" },
+      { property: "og:title", content: "About Buzmark Consultants" },
       {
         property: "og:description",
         content: "Our story, mission, vision and the team behind Buzmark.",

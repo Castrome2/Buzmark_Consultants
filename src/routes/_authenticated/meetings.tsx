@@ -15,7 +15,7 @@ import { formatDate, formatDateTime, labelize, priceLabel } from "@/lib/brand";
 export const Route = createFileRoute("/_authenticated/meetings")({
   head: () => ({
     meta: [
-      { title: "Meeting Pipelines | Buzmark Agency" },
+      { title: "Meeting Pipelines | Buzmark Consultants" },
       {
         name: "description",
         content:

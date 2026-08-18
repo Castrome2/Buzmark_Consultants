@@ -10,13 +10,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/industries")({
   head: () => ({
     meta: [
-      { title: "Industries We Serve | Buzmark Agency" },
+      { title: "Industries We Serve | Buzmark Consultants" },
       {
         name: "description",
         content:
           "Buzmark serves SMEs, schools, hospitals, NGOs, government, restaurants, hotels, financial institutions, manufacturing and real estate.",
       },
-      { property: "og:title", content: "Industries We Serve | Buzmark" },
+      { property: "og:title", content: "Industries We Serve | Buzmark Consultants" },
       {
         property: "og:description",
         content: "Sector-specific marketing and consulting expertise.",

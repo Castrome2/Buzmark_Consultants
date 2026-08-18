@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * Buzmark Agency design system.
+ * Buzmark Consultants design system.
  * Brand: navy #1B2A4A, orange #F26522, warm off-white surfaces.
  * All colour values are oklch tokens. Never hardcode colours in components.
  */

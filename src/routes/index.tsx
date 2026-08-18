@@ -31,13 +31,13 @@ const homeQuery = queryOptions({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Buzmark Agency | Branding, Marketing & Business Consulting" },
+      { title: "Buzmark Consultants | Branding, Marketing & Business Consulting" },
       {
         name: "description",
         content:
-          "Buzmark Agency helps businesses build memorable brands, run winning marketing campaigns and grow through expert consulting. Book a free discovery call.",
+          "Buzmark Consultants helps businesses build memorable brands, run winning marketing campaigns and grow through expert consulting. Book a free discovery call.",
       },
-      { property: "og:title", content: "Buzmark Agency | Your Growth Partner" },
+      { property: "og:title", content: "Buzmark Consultants | Your Growth Partner" },
       {
         property: "og:description",
         content:
@@ -76,7 +76,7 @@ function Home() {
               variant="outline"
               className="rounded-full border-brand/40 bg-brand/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-brand"
             >
-              <Sparkles className="mr-1.5 size-3" /> Buzmark Agency
+              <Sparkles className="mr-1.5 size-3" /> Buzmark Consultants
             </Badge>
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] text-navy-foreground sm:text-6xl">
               Your Growth Partner in{" "}

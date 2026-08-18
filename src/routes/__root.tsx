@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Buzmark Agency | Branding, Marketing & Business Consulting" },
+      { title: "Buzmark Consultants | Branding, Marketing & Business Consulting" },
       {
         name: "description",
         content:
-          "Buzmark Agency builds memorable brands, runs winning marketing campaigns and consults businesses to growth across Kenya and beyond.",
+          "Buzmark Consultants builds memorable brands, runs winning marketing campaigns and consults businesses to growth across Kenya and beyond.",
       },
-      { name: "author", content: "Buzmark Agency" },
-      { property: "og:title", content: "Buzmark Agency | Branding, Marketing & Consulting" },
+      { name: "author", content: "Buzmark Consultants" },
+      { property: "og:title", content: "Buzmark Consultants | Branding, Marketing & Consulting" },
       {
         property: "og:description",
         content: "Your growth partner in branding, marketing and business consulting.",
