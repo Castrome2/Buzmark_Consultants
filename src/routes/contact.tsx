@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Get in touch with Buzmark Marketing and Consulting Agency in Nairobi — phone, email, office hours and a quick enquiry form.",
+          "Get in touch with Buzmark Marketing and Consulting Consultants in Nairobi — phone, email, office hours and a quick enquiry form.",
       },
       { property: "og:title", content: "Contact Buzmark Consultants" },
       { property: "og:description", content: "Talk to our team about your next project." },

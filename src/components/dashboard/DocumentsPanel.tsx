@@ -47,7 +47,7 @@ export function printDocument(doc: DocRow, client: string) {
     th{background:#f6f7fa;text-transform:uppercase;font-size:11px;letter-spacing:.08em}
     .muted{color:#667;font-size:12px} .total{margin-top:18px;font-size:16px;font-weight:800}
   </style></head><body>
-  <h1>BUZ<span class="brand">MARK</span> AGENCY</h1>
+  <h1>BUZ<span class="brand">MARK</span> CONSULTANTS</h1>
   <p class="muted">${labelize(doc.kind)} · ${doc.doc_number} · Issued ${formatDate(doc.issued_at)}</p>
   <h2 style="font-size:18px">${doc.title}</h2>
   <p class="muted">Prepared for: ${client}</p>

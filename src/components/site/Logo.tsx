@@ -15,7 +15,7 @@ export function Logo({
     <Link to="/" className={cn("inline-flex items-center gap-2.5", className)}>
       <img
         src={logo.url}
-        alt="Buzmark Marketing and Consulting Agency logo"
+        alt="Buzmark Marketing and Consulting Consultants logo"
         className={cn(
           "h-10 w-10 rounded-md object-cover object-center",
           variant === "light" && "bg-navy-foreground",
@@ -38,7 +38,7 @@ export function Logo({
               variant === "light" ? "text-navy-foreground/60" : "text-muted-foreground",
             )}
           >
-            Agency
+            Consultants
           </span>
         </span>
       )}

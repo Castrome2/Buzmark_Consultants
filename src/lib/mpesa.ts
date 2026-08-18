@@ -9,7 +9,7 @@ export const PAYMENT_ACCOUNTS = {
   paybillAccount: "BUZMARK",
   bankName: "Equity Bank Kenya",
   bankBranch: "Nairobi CBD",
-  bankAccountName: "Buzmark Marketing & Consulting Agency",
+  bankAccountName: "Buzmark Marketing & Consulting Consultants",
   bankAccountNumber: "0170 2915 3374 21",
   swift: "EQBLKENA",
 } as const;

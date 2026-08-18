@@ -22,7 +22,7 @@ function ymd(d: Date) {
   ).padStart(2, "0")}`;
 }
 
-/** Month grid highlighting the days the agency is booked. */
+/** Month grid highlighting the days the consultants are booked. */
 export function BookingCalendar({ bookings }: { bookings: CalendarBooking[] }) {
   const [cursor, setCursor] = useState(() => {
     const now = new Date();

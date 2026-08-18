@@ -76,7 +76,7 @@ export function SiteFooter() {
 
       <div className="border-t border-navy-foreground/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-navy-foreground/55 sm:flex-row sm:px-6">
-          <p>© {new Date().getFullYear()} Buzmark Marketing & Consulting Agency.</p>
+          <p>© {new Date().getFullYear()} Buzmark Marketing & Consulting Consultants.</p>
           <p>Building Brands. Growing Businesses. Creating Impact.</p>
         </div>
       </div>

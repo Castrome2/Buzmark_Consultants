@@ -7,11 +7,11 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Buzmark | Marketing & Consulting Agency in Nairobi" },
+      { title: "About Buzmark | Marketing & Consulting Consultants in Nairobi" },
       {
         name: "description",
         content:
-          "Buzmark is a full-service marketing and consulting agency helping businesses build brands, grow revenue and create lasting impact.",
+          "Buzmark is a full-service marketing and consulting consultants helping businesses build brands, grow revenue and create lasting impact.",
       },
       { property: "og:title", content: "About Buzmark Consultants" },
       {
@@ -36,7 +36,7 @@ function About() {
       <PageHero
         eyebrow="About us"
         title="We build brands that businesses are proud of"
-        description="Buzmark Marketing and Consulting Agency partners with ambitious organisations to shape identity, win attention and grow sustainably."
+        description="Buzmark Marketing and Consulting Consultants partners with ambitious organisations to shape identity, win attention and grow sustainably."
       />
 
       <section className="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2">

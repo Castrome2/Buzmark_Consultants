@@ -15,14 +15,14 @@ import { LANGUAGES, useSettings, useSaveSettings } from "@/hooks/use-settings";
 const DOWNLOADS = [
   {
     href: "/documents/buzmark-company-profile.html",
-    file: "Buzmark-Agency-Company-Profile.html",
+    file: "Buzmark-Consultants-Company-Profile.html",
     title: "Company profile",
     description: "Who we are, our services, industries and delivery approach.",
     icon: FileText,
   },
   {
     href: "/documents/buzmark-policy.html",
-    file: "Buzmark-Agency-Client-Policy.html",
+    file: "Buzmark-Consultants-Client-Policy.html",
     title: "Client & privacy policy",
     description: "Payment terms, deliverables, data protection and cancellations.",
     icon: ShieldCheck,
